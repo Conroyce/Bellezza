@@ -1,0 +1,11 @@
+<h1>Todos</h1>
+
+
+<ul class="list-group">
+	{{#each}}{{todo-item todo=this}}{{/each}}
+</ul>
+
+{{#link-to 'todos.new' class='btn btn-default'}}New Todo{{/link-to}}
+<button class="btn btn-default" {{action 'removeDone'}}>Remove Done</button>
+
+{{outlet}}
