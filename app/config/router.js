@@ -8,7 +8,6 @@ Bellezza.Router.map(function () {
 	// this.route('about');
 	// this.route('contact');
   this.route('services');
-  this.route('schedule');
 	this.route('error404', { path: '*:' });
 });
 
