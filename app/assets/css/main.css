@@ -3,6 +3,10 @@ body {
   font-size:1.7em;
 }
 
+a {
+  color: DBD9D9;
+}
+
 .todos {
 	list-style: none;
 }
@@ -19,19 +23,19 @@ body {
 
 .topBackImg {
   position:relative;
-  background:url('http://img.pr.com/release-file/0901/124847/PRSalonphoto.jpg');
+  background:url('../img/salon.jpg');
   background-size: cover;
   height:600px;
 }
 
-.overlay {
+/*.overlay {
   z-index:3;
   position:absolute;
   width:100%;
   height:600px;
   background-color:#000;
-  opacity:0.7;
-}
+  opacity:0.5;
+}*/
 
 .topContent {
   width:100%;
@@ -58,7 +62,7 @@ body {
 }
 
 .secondContent {
-  height:300px;
+  height:400px;
   width:100%;
-  background-color: #121212;
+  background-color: #fff;
 }
