@@ -4,7 +4,15 @@ body {
 }
 
 a {
-  color: DBD9D9;
+  color: #eee;
+}
+
+.centered {
+  text-align:center;
+}
+
+.navbar {
+  margin-bottom:0px;
 }
 
 .todos {
@@ -22,7 +30,7 @@ a {
 }
 
 .topBackImg {
-  position:relative;
+  margin-top:-50px;
   background:url('../img/salon.jpg');
   background-size: cover;
   height:600px;
@@ -39,10 +47,11 @@ a {
 
 .topContent {
   width:100%;
-  margin-top:300px;
   z-index:99;
   position:absolute;
-  color:DBD9D9;
+  margin-top:250px;
+  color:#eee;
+  /*color:   #DBD9D9;*/
   text-align:center;
 }
 
@@ -65,4 +74,13 @@ a {
   height:400px;
   width:100%;
   background-color: #fff;
+}
+
+.priceCol {
+  width:30%;
+  text-align:center;
+}
+
+.space-top-4 {
+  margin-top:40px;
 }
